@@ -1,0 +1,16 @@
+{
+    "name": "webdriverio-tests",
+    "version": "0.1.0",
+    "private": true,
+    "devDependencies": {
+        "@recordreplay/recordings-cli": "^0.4.1",
+        "@wdio/cli": "^7.16.10",
+        "@wdio/local-runner": "^7.16.10",
+        "@wdio/mocha-framework": "^7.16.6",
+        "@wdio/selenium-standalone-service": "^7.16.6",
+        "@wdio/spec-reporter": "^7.16.9"
+    },
+    "scripts": {
+        "wdio": "wdio run wdio.conf.js"
+    }
+}
